@@ -1,53 +1,48 @@
-body
+
+
+
+
+
+
+.logo
+{
+    width: 60PX;
+    height: 450px;
+    border-radius: 25%;
+    padding: 0;
+    margin-left: 50px;
+}
+
+
+
+
+/*styles for index.html page*/
+
+
+/*starting the styling now*/
+
+
+#app-home
 {
     margin: 0;
     padding: 0;
     background: url('nature.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
     text-align: center;
+    color: yellowgreen;
+    text-size-adjust: 1,2em;
 }
-.speed-home
-{
-   margin: 0;
-    padding: 0;
-    background: url('contacttab.jpg') no-repeat center center fixed;
-    background-size: cover;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;  
-    color: aqua;
-}
-.home-nav
-{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 2px;
-    border: 2px solid yellow;
-    background-color: beige;
-}
-.home h2
-{
-    font-size: 5em;
 
-}
-.serch-container
-{
-    position: relative;
-    margin-top: 50px;
-
-}
 .serch-container input[ type="text"]
 {
-    width: 250px;
+    width: 350px;
     padding: 1opx;
-    border-radius: 20px;
+    border-radius: 5px;
     border: none ;
     font-size: 16px;
 }
-.serch-container button
+.serch-but-1
 {
     position: relative;
     border-radius: 20px;
@@ -59,36 +54,41 @@ body
     cursor: pointer;
     margin-left: 5px;
 }
+
+
+
+.serch-container
+{
+    position: relative;
+    margin-top: 50px;
+
+}
+
 .slogan
 {
     margin-top: 150px;
     font-size: 1.5em;
     color: aqua;
 }
-h1
+.title 
 {
     margin-top: 40px;
     font-size: 6.5em;
+    color: yellow;
     text-shadow: 2px 2px 4px color(srgb rgb(74, 11, 235) green blue);
 }
-.welcom-message
+.welcom-message 
 {
     margin-top: 30px;
-    color: rgb(58, 225, 11);
+    color: white;
+    padding: 20px;
     font-size: 1.1em;
     font-weight: bold;
 
 }
-.footer
-{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 10px;
-    background-color: whitesmoke;
-    color: yellow;
-    text-align: center;
-}
+
+
+
 footer p{
     width: 75%;
     margin: 0 auto;
@@ -98,7 +98,7 @@ footer p{
 }
 .footer-nav
 {
-    display: block;
+    display: inline-block;
     width: 100%;
     text-align: center;
     font-size: 1.2em;
@@ -109,23 +109,381 @@ a
 {
     font: bold;
     color: rgb(74, 11, 235);
-    margin-right: 50px;
+    margin-right: 90px;
     transition-duration: .3s;
+    text-decoration: underline;
 }
 a:hover
 {
-    color: violet;
+    color: purple;
 }
 a:active
 {
     color: rgb(58, 225, 11);
     
 }
-.logo
+a:visited
 {
-    width: 60PX;
-    height: 450px;
-    border-radius: 25%;
-    padding: 0;
-    margin-left: 50px;
+    color: violet;
 }
+
+/*styles for home page*/
+
+/*starting the styling now*/
+
+.speed-home
+{
+   margin: 0;
+    padding: 0;
+    background: url('/gullary/10.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+    color: white; 
+    text-size-adjust: 4.5em;
+}
+
+
+.home-header
+{
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    position: fixed;
+    padding: 20;
+    border: 1px solid aqua;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    align-self: auto;
+}
+.home-container-h2
+{
+    font-size: 4em;
+    color: rgb(16, 232, 210);
+    position: fixed;
+    top: 0;
+    text-align: center;
+
+}
+
+.speed-history-container
+{
+    margin-top: 180px;
+    padding: 2px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.speed-history h3
+{
+    font-size: 1.5em;
+    color: yellowgreen;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.obj-h2
+{
+  color: turquoise;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+
+.obj-p
+{
+    font-size: 1.5em;
+    color: white;
+}
+.objectives-desciption p 
+{
+    font-size: 1.8em;
+    color: rgb(16, 232, 210);
+    line-height: 1.5px;
+}
+
+.mission-content
+{
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.mis-h2
+{
+    font-size: 2.5em;
+    color: red
+}
+.mis-p
+{
+    color: greenyellow;
+}
+.mis-h3
+{
+    color: rgb(179, 9, 116);
+}
+.vision-container
+{
+    font: 1.2em sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.vision-h2
+{
+    color: rgb(12, 224, 135);
+    font-size: 2.0em;
+}
+dt
+{
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+    color: darkorange;
+    text-align: left;
+}
+dd
+{
+    font-size: medium;
+    font-weight: 200;
+    font-size: medium;
+    text-align: left;
+}
+.A
+{
+    background-color: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+
+}
+.A:hover
+{
+    opacity: 0.7;
+}
+.B
+{
+    background-color: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.B:hover
+{
+    opacity: 0.7;
+}
+
+.C
+{
+    background-color: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.C:hover
+{
+    opacity: 0.7;
+}
+.D
+{
+    background-color: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    
+}
+.D:hover
+{
+    opacity: 0.7;
+}
+.E
+{
+    background-color: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  
+}
+.E:hover
+{
+    opacity: 0.7;
+}
+.block-2
+{
+    background-color: aqua;
+    border-radius: 1px solid;
+    font-weight: 200;
+    float: left;
+    width: 45%;
+    box-sizing: border-box;
+}
+.block-3
+{
+    background-color: rgb(12, 226, 159);
+    border-radius: 1p solidx;
+    font-weight: 200;
+    float: right;
+    width: 55%;
+    box-sizing: border-box;
+}
+.rb
+{
+background-color: saddlebrown;
+color: darkorange;
+}
+.lb
+{
+background-color: black;
+color: rgb(200, 10, 165);
+}
+
+/* styling for about,html*/
+
+/* starting  css now for about.html*/
+
+
+#about
+{
+    background: url('/gullary/17.jpg') no-repeat center center fixed;
+    background-position: c;
+    background-size: cover;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: groove solid;
+}
+.h1-about
+{
+    color: aqua;
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    text-underline-position: below;
+    margin-top: 0%;
+}
+.objectives-desciption
+{
+    border-radius: 1px dotted dashed;
+}
+
+.h2-heading
+{
+    color: rgb(199, 240, 17);
+    line-height: 1.2px;
+}
+
+.par-1
+{
+    color: white;
+    padding: 0%;
+}
+.mission-description-h2
+{
+    color: blue;
+    line-height: 1.2px;
+}
+.mission-description-p
+{
+    color: whitesmoke;
+}
+.mission-description-h4
+{
+    color: deeppink;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+} 
+.mission-description-ul
+{
+    color: rgb(44, 197, 205);
+    text-align: center;
+    list-style-type: square;
+}
+.mission-description-h3-ul
+{
+    color: yellow;
+}
+.about-table
+{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid aqua;
+    color: aliceblue;
+    width: 100%;
+    
+}
+.mission-description-th-1
+{
+    color: chartreuse;
+    background-color: mediumvioletred;
+}
+.mission-description-th-2
+{
+    color: rgb(223, 247, 8);
+    background-color: black;
+}
+#bold
+{
+    text-align: center;
+    height: 5px;
+    font-weight: 3px;
+    font-style: italic;
+    color: red;
+}
+.my-form
+{
+    padding: 20PX;
+}
+.my-form .form-group
+{
+padding-bottom: 15px;
+}
+.my-form label
+{
+    display: block;
+    color: blueviolet;
+}
+
+ input[type="text"],
+ input[type="date"],
+ input[type="email"],
+ input[type="password"],
+ input[type="number"],
+ input[type="datetime-local"],
+ input[type="tel"],
+ input[type="date-time-local"]
+ {
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    border-radius: 300.px;
+    background-color: dimgrey;
+    color: black;
+ }
+ input[type="SUBMIT"]
+ {
+    
+ }
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
